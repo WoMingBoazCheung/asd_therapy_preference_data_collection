@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.sessionsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  width: 100%;
+}

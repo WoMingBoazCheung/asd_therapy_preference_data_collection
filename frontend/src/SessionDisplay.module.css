@@ -1,0 +1,20 @@
+.container {
+  text-align: center;
+  margin: 0 10px; /* Use margin for spacing instead of marginLeft on one item */
+  width: 640px;
+}
+
+.canvasPlaceholder {
+  width: 640px;
+  height: 480px;
+  border: 1px solid #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888;
+}
+
+.preferenceButton {
+  margin-top: 10px;
+  width: 50%; /* Make buttons a bit smaller */
+}
