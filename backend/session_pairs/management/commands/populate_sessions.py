@@ -31,7 +31,7 @@ class Command(BaseCommand):
     help = 'Scans the sample_data directory and populates the Session model with tracked keypoint data.'
 
     def handle(self, *args, **options):
-        sample_data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../../sample_data'))
+        sample_data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../backend/sample_data'))
         self.stdout.write(f'Scanning directory: {sample_data_dir}')
 
         try:
